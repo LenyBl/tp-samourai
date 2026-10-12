@@ -16,13 +16,13 @@ public class Humain {
 
     public void parler(String texte) {
 
-        System.out.println((this.nom) + " - " + texte);
+        System.out.println("(" + (this.nom) + ")" + " - " + texte);
 
     }
 
     public void direBonjour() {
 
-        String texte = "Bonjour ! Je m'appelle " + this.getNom() + " et j'aime boire du " + this.getBoisson();
+        String texte = "Bonjour ! Je m'appelle " + this.getNom() + " et j'aime boire du " + this.getBoisson() + " et j'ai " + this.getArgent() + " sous en poche";
         parler(texte);
 
     }
