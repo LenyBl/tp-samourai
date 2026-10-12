@@ -18,7 +18,7 @@ public class Yakusa extends Humain {
         commercant.seFaireExtorquer();
         this.gagnerArgent(argentGagne);
         this.reputation += 1;
-        this.parler("J’ai piqué le fric de Marchant" );
+        this.parler("J’ai piqué le fric de " + commercant.getNom() );
     }
 
     public String getClan() {
